@@ -3,7 +3,7 @@
 Go library for parsing and dumping **MAXI schema + records**.
 
 Module: `github.com/maxi-format/maxi-go`  
-Go version: **1.23+**  
+Go version: **1.25+**  
 Zero external dependencies.
 
 ## Install

@@ -95,7 +95,7 @@ if err != nil {
 // Schema is fully available before iterating
 fields := stream.Schema.GetType("U").Fields
 
-// Iterate lazily (Go 1.23+ range-over-func)
+// Iterate lazily (Go 1.25+ range-over-func)
 for rec := range stream.Records() {
     fmt.Println(rec.Alias, rec.Values)
 }

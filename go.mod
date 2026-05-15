@@ -1,3 +1,3 @@
 module github.com/maxi-format/maxi-go
 
-go 1.23
+go 1.25
